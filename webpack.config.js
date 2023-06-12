@@ -5,7 +5,7 @@ module.exports = {
   target: 'node',
   externals: [nodeExternals()],
   mode: 'production',
-  entry: './server.js',
+  entry: './functions/server.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'server.js',
