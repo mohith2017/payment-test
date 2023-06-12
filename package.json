@@ -14,7 +14,8 @@
     "lint:prettier": "prettier --ignore-path .gitignore --check .",
     "lint:prettier:fix": "prettier --ignore-path .gitignore --write .",
     "test": "npm-run-all --serial lint test:*",
-    "test:unit": "nyc ava"
+    "test:unit": "nyc ava",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
